@@ -1,17 +1,27 @@
 # instance_seg_paper_collection
 
 ## 2022
-### Beyond Semantic to Instance Segmentation Weakly-Supervised Instance Segmentation via Semantic Knowledge Transfer and Self-Refinement CVPR 2022
-### Instance Segmentation with Mask-Supervised Polygonal Boundary Transformers CVPR 2022
-### Mask Transfiner for High-quality Instance Segmentation CVPR 2022
-### Sparse Instance Activation for Real-Time Instance Segmentation CVPR 2022
-### Temporally Efficient Vision Transformer for Video Instance Segmentation CVPR 2022
-### YOLACT++ Better Real-time Instance Segmentation IEEE TPAMI 2022
+### (BESTIE) Beyond Semantic to Instance Segmentation Weakly-Supervised Instance Segmentation via Semantic Knowledge Transfer and Self-Refinement CVPR 2022 [[code]](https://github.com/clovaai/BESTIE)
+'Weakly-supervised instance segmentation (WSIS)', 'Semantic knowledge transfer', 'Self-refinement method', 'Semantic drift problem', 'Peak attention module (PAM)', 'Instance-aware guidance strategy'
+### Contour Loss for Instance Segmentation via k-step Distance Transformation Image IETCV 2022 [[paper]](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12114)
+''
+### EM-Paste - EM-guided Cut-Paste with DALL-E Augmentation for Image-level Weakly Supervised Instance Segmentation arXiv 2022 [[paper]](https://arxiv.org/abs/2212.07629)
+### (BoundaryFormer) Instance Segmentation with Mask-Supervised Polygonal Boundary Transformers CVPR 2022 [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Lazarow_Instance_Segmentation_With_Mask-Supervised_Polygonal_Boundary_Transformers_CVPR_2022_paper.html) [[code]](https://github.com/mlpc-ucsd/BoundaryFormer)
+'Regresses a polygonal boundary for each object instance', 'Transformer', 'Matches or surpasses the Mask R-CNN method in terms of instance segmentation quality on both COCO and Cityscapes', 'differentiable rasterization module'
+### Mask Transfiner for High-quality Instance Segmentation CVPR 2022 [[paper]]() [[code]]()
+'Node encoder', 'Sequence encoder', 'Pixel decoder'
+### (SparseInst) Sparse Instance Activation for Real-Time Instance Segmentation CVPR 2022 [[paper]]() [[code]]()
+'Instance activation maps (IAM)', 'Are instance-aware weighted maps'
+### (TeViT) Temporally Efficient Vision Transformer for Video Instance Segmentation CVPR 2022 [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Yang_Temporally_Efficient_Vision_Transformer_for_Video_Instance_Segmentation_CVPR_2022_paper.html) [[code]](https://github.com/hustvl/TeViT)
+'Video Instance Segmentation (VIS)', 'Nearly convolution-free', 'Nearly parameter-free messenger shift mechanism', 'Parameter-shared spatiotemporal query interaction mechanism '
+### YOLACT++ - Better Real-time Instance Segmentation IEEE TPAMI 2022 [[arXiv paper]](https://arxiv.org/abs/1912.06218) [[ieee paper]](https://ieeexplore.ieee.org/document/9159935)
+'Generating a set of prototype masks', 'Predicting per-instance mask coefficients', 'Producing instance masks by linearly combining the prototypes with the mask coefficients'
 
 ## 2021
-### A^2-FPN Attention Aggregation based Feature Pyramid Network for Instance Segmentation CVPR 2021
-### BoxInst High-Performance Instance Segmentation With Box Annotations CVPR 2021
-### Contour Loss for Instance Segmentation via k-step Distance Transformation Image arXiv 2021
+### A^2-FPN Attention Aggregation based Feature Pyramid Network for Instance Segmentation CVPR 2021 [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Hu_A2-FPN_Attention_Aggregation_Based_Feature_Pyramid_Network_for_Instance_Segmentation_CVPR_2021_paper.html)
+'Improve multi-scale feature learning through attention-guided feature aggregation'
+### BoxInst High-Performance Instance Segmentation With Box Annotations CVPR 2021 [[paper]](https://openaccess.thecvf.com/content/CVPR2021/html/Tian_BoxInst_High-Performance_Instance_Segmentation_With_Box_Annotations_CVPR_2021_paper.html) [[code]](https://github.com/aim-uofa/AdelaiDet)
+'redesign the loss of learning masks in instance segmentation', 'a surrogate term that minimizes the discrepancy between the projections of the ground-truth box and the predicted mask', 'a pairwise loss that can exploitthe prior that proximal pixels with similar colors are very likely to have the same category label'
 ### Deep Occlusion-Aware Instance Segmentation with Overlapping BiLayers CVPR 2021
 ### End-to-End Video Instance Segmentation With Transformers CVPR Oral 2021
 ### Look Closer to Segment Better Boundary Patch Refinement for Instance Segmentation CVPR 2021
@@ -24,6 +34,7 @@
 ### 1st Place Solutions for OpenImage2019 -- Object Detection and Instance Segmentation arXiv 2020
 ### CenterMask Real-Time Anchor-Free Instance Segmentation CVPR 2020
 ### CenterMask Single Shot Instance Segmentation with Point Representation CVPR 2020
+### Conditional Convolutions for Instance Segmentation ECCV 2020
 ### Deep Snake for Real-Time Instance Segmentation arXiv 2020
 ### Joint COCO and Mapillary Workshop at ICCV 2019 COCO Instance Segmentation Challenge Track arXiv 2020
 ### PatchPerPix for Instance Segmentation arXiv 2020
